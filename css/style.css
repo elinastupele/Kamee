@@ -1,0 +1,92 @@
+.nav-area{
+    width: 800px;
+    height: 50px;
+    background: #D4AF37;
+    text-align:center;
+    margin: 20px auto;
+    position: relative;
+    box-sizing: border-box;
+    font-family: roboto;
+    box-shadow: 0 0 2px #000;
+    }
+    .nav-area:before{
+        position: absolute;
+        content: '';
+        left: -25px;
+        top: 25px;
+        border-top: 25px solid transparent;
+        border-right: 25px solid   #614b01bd;
+        border-bottom: 25px solid  transparent;
+        border-left: 25px solid transparent;
+        z-index: -1;
+    }
+    .nav-area:after{
+        position: absolute;
+        content: '';
+        right: -25px;
+        top: 25px;
+        border-top: 25px solid transparent;
+        border-right: 25px solid  transparent;
+        border-bottom: 25px solid  transparent;
+        border-left: 25px solid #614b01bd;
+        z-index: -1;
+    }
+    .side-one{
+        position: absolute;
+        border-top: 25px solid #D4AF37;
+        border-right: 50px solid #D4AF37;
+        border-bottom: 25px solid #D4AF37;
+        border-left: 25px solid transparent;
+        top: 25px;
+        left: -50px;
+        z-index: -2;
+    }
+    .side-two{
+        position: absolute;
+        border-top: 25px solid #D4AF37;
+        border-right: 25px solid transparent;
+        border-bottom: 25px solid #D4AF37;
+        border-left: 50px solid #D4AF37;
+        top: 25px;
+        right: -50px ;
+        z-index: -2;
+    }
+    .nav-area a{
+        text-decoration: none;
+        font-family: big john;
+        color: #fff;
+        padding: 15px 30px;
+        line-height: 2.1;
+    }
+    .nav-area a:hover{
+        background: #c0c0c0;
+        color: #262626;
+    }
+    .banner-text{
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        transform: translate(50%, 50%) ;
+        text-align:center;
+    }
+    .banner-text h2{
+        font-family: arial  ;
+        font-size: 65px;
+        color: #000;
+    }
+    .banner-text p{
+        font-family:Arial ;
+        font-size: 25px;
+    }
+    .banner-text button{
+        background: #D4AF37;
+        color:#fff;
+        font-family: monospace;
+        padding: 15px 15px;
+    }
+    .banner-text button:hover{
+        border-color: #c0c0c0;
+        background:#c0c0c0;
+        transition: .9s;
+        color: #262626;
+    }
