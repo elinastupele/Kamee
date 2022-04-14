@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #f1f1f1;
+    padding: 30px;
+    font-family: Arial;
+  }  
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  .content {
+    background-color: white;
+    padding: 15px;
+    float: center;
+  }
+  .content button{
+        background: rgb(255, 255, 255);
+        color: black;
+        padding: 10px  
+  }
+.content button:hover{
+    transform: translateY(-5px)
+}
