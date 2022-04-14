@@ -1,3 +1,4 @@
+
 .nav-area{
     width: 800px;
     height: 50px;
@@ -90,3 +91,66 @@
         transition: .9s;
         color: #262626;
     }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 30px;
+  font-family: Arial;
+}
+
+.main {
+  max-width: 990px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+
+.row,
+.row > .column {
+  padding: 15px;
+}
+
+
+.column {
+  float: left;
+  width: 20%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: white;
+  padding: 15px;
+  transition: transfrom 0.5s ;
+  float: center;
+}
+.column {
+  width: 45%;
+}
+.column:hover{
+  transform: translateY(-5px)
+}
+.banner-text button{
+  background: white;
+  color: black;
+  font-family: monospace;
+  padding: 15px 15px;
+}
+  
+    
